@@ -1,5 +1,7 @@
 # Zabbix-update-from-v4.0-to-7.2
-
+# DISCLAIMER
+**This manual and the provided SQL script are created for the update the newly installed Zabbix 7.2 server with the SQL dump from the old Zabbix 4.0 DB. It is not meant for the upgrade the existing Zabbix server. It is done in my production environment, but the author waive all responsibility for any damage that may be incur by using this manual or SQL script.  
+Read it thouroughly, try to understand and apply responsibly to your environment.**  
 ## A little background info.  
 While looking for useful hints on the Internet to upgrade our old Zabbix infrastructure monitoring server to the new version (with new features), I realized that there are no detailed instructions how to do it.  
 Furthermore, no one has done specifically update from rather old v4.0 to 7.2. While I found general path how to update from any version, I decided to document it, together with SQL script that helps to shorten the update task.   
