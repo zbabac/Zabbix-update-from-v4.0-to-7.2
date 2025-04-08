@@ -4,6 +4,7 @@
 # Read thouroughly and use at your own risk.
 # ###################################################
 # SQL script to fix migration from Zabbix 4.0 to 7.2
+# Supports only MySQL/MariaDB!
 # It creates/deletes tables/indexes neccessary for zabbix DB v7.2
 # At the end it creates also history/trends tables.
  
